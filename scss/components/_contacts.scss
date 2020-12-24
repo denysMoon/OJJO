@@ -1,0 +1,36 @@
+.contacts{
+  height: 295px;
+}
+.contacts__columns{
+  display: flex;
+  justify-content: space-between;
+}
+.contacts__columns_item h2{
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 1px solid black;
+  color: black;
+  padding: 40px;
+}
+.contacts__columns_item{
+  width: 265px;
+  height: 190px;
+}
+.contacts__columns_item ul, p{
+  color: black;
+  font-size: 18px;
+  display: grid;
+}
+.contacts__columns_item a, img, p, ul>il{
+  padding: 15px;
+  line-height: 30px;
+}
+.contacts__columns_item a{
+  color: black;
+}
+.contacts__columns_item_sm{
+  width: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

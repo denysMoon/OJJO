@@ -1,0 +1,42 @@
+.info{
+  height: 541px;
+  background: url("../img/bg-black.png");
+}
+.info__title{
+  text-align: center;
+  padding: 40px;
+}
+.info__title h3{
+  font-size: 21px;
+  padding: 15px;
+}
+.info__title h2{
+  font-size: 30px;
+  font-weight: 700;
+  padding: 15px;
+}
+.info_text{
+  font-size: 18px;
+  text-align: center;
+  line-height: 25px;
+  width: 730px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.info_text p{
+  color: white;
+}
+.info button{
+  margin-top: 80px;
+  display: block;
+  width: 224px;
+  height: 51px;
+  color: black;
+  text-align: center;
+  background: white;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}

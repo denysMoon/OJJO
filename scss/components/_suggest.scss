@@ -1,0 +1,64 @@
+.suggest{
+  margin-top: 200px;
+  height: 478px;
+  background: url("../img/bg-black.png");
+}
+.suggest__title{
+  text-align: center;
+  padding: 40px;
+}
+.suggest__title h3{
+  font-size: 21px;
+  padding: 15px;
+}
+.suggest__title h2{
+  font-size: 30px;
+  font-weight: 700;
+  padding: 15px;
+}
+.suggest__info_form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 418px;
+  height: 85px;
+  background: white;
+}
+.suggest__info{
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.form__input{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 365px;
+  height: 50px;
+}
+.form__input input{
+  display: block;
+  width: 200px;
+  height: 50px;
+  color: #333333;
+  border: 1px solid #333333;
+}
+.form__input button{
+  display: block;
+  width: 149px;
+  height: 50px;
+  background: #333333;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+.suggest__info ul{
+  font-size: 18px;
+}
+.suggest__info ul>li{
+  padding: 5px;
+}
+
+

@@ -1,0 +1,41 @@
+.articles{
+  height: 626px;
+  margin-top: 100px;
+}
+.articles__title{
+  color: black;
+  text-align: center;
+  padding: 30px;
+}
+.articles__title h3{
+  font-size: 21px;
+  padding: 15px;
+}
+.articles__title h2{
+  font-size: 30px;
+  font-weight: 700;
+  padding: 15px;
+}
+.articles__photos{
+  height: 370px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+.articles__button{
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.articles__button button{
+  display: block;
+  width: 255px;
+  height: 51px;
+  color: white;
+  font-weight: 500;
+  background: black;
+  font-size: 18px;
+  margin-right: auto;
+  margin-left: auto;
+}
